@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: square;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+ul li {
+    text-align: justify;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    border: 1px solid #ccc;
+    column-gap: 20px;
+    font-size: 30px;
+    height: 3em;
+    justify-content: center;
+    margin: 10px 10px;
+    padding: 5px;
+}
+
+nav p a {
+    color: #bbb;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav img {
+    width: 60px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+}
+
+.flex-container h2 {
+    color: #999;
+    margin: 20px 0px;
+}
+
+.flex-container h4 {
+    color: #777;
+}
+
+.flex-item {
+    border: 1px solid #eee;
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.flex-item a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.flex-item h3 {
+    color: #888;
+    margin: 5px 0px;
+}
+
+.flex-item h4 {
+    color: #777;
+    text-decoration: underline;
+}
+
+.flex-item ul {
+    list-style-type: none;
+}
+
+.flex-item ul li {
+    padding-left: 20px;
+}
+
+.flex-item ul li a {
+    color: royalblue;
+}
+
+.flex-item ol {
+    list-style-position: inside;
+}
+
+.flex-item .ossze {
+    color: rgb(177, 59, 23);
+}
+
+.ossze:hover {
+    cursor: pointer;
+}
+
+.osszefoglalo {
+    display: none;
+    margin: 10px 0px;
+    text-align: justify;
+}
+
+.felsorolas {
+    color: rgb(207, 12, 87);
+    font-family: 'Aboreto', cursive;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        display: block;
+        height: auto;
+        padding: 5px;
+    }
+
+    nav a {
+        display: block;
+        text-align: left;
+    }
+
+    nav img {
+        display: none;
+    }
+
+    .flex-container {
+        padding: 5px;
+        width: 100%;
+    }
+}
